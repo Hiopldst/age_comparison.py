@@ -1,0 +1,13 @@
+import random
+
+print("сколько тебе лет")
+
+user_randint = int(input("введи свой возраст "))
+computer_randint = random.randint(1,80)
+
+if user_randint == computer_randint:
+  print("тебе столько же лет сколько и компьютеру")
+elif user_randint > computer_randint:
+  print("ты старше компьютера")
+else:
+  print("ты младше компьютера")
